@@ -1,0 +1,92 @@
+{
+	"configs" : [
+		{
+			"remarks" : "",
+			"id" : "821CDA49B3D3E980EF9A878A783CB245",
+			"server" : "server host",
+			"server_port" : 8388,
+			"server_udp_port" : 0,
+			"password" : "0",
+			"method" : "aes-256-cfb",
+			"protocol" : "origin",
+			"protocolparam" : "",
+			"obfs" : "plain",
+			"obfsparam" : "",
+			"remarks_base64" : "",
+			"group" : "FreeSSR-public",
+			"enable" : true,
+			"udp_over_tcp" : false
+		},
+		{
+			"remarks" : "",
+			"id" : "C2984E20E738EB88DC9059DF3242C71B",
+			"server" : "89.35.39.86",
+			"server_port" : 15140,
+			"server_udp_port" : 0,
+			"password" : "zh3x&RKpCmEEPd!!",
+			"method" : "chacha20",
+			"protocol" : "auth_sha1_v4",
+			"protocolparam" : "",
+			"obfs" : "tls1.2_ticket_auth",
+			"obfsparam" : "",
+			"remarks_base64" : "",
+			"group" : "scrape",
+			"enable" : true,
+			"udp_over_tcp" : false
+		},
+		{
+			"remarks" : "",
+			"id" : "B4DA090AD5DABFDCBA8D4AD6AA61BA09",
+			"server" : "89.35.39.86",
+			"server_port" : 20451,
+			"server_udp_port" : 0,
+			"password" : "^$dm*6CcB2gQAe8c",
+			"method" : "chacha20",
+			"protocol" : "auth_sha1_v4",
+			"protocolparam" : "",
+			"obfs" : "tls1.2_ticket_auth",
+			"obfsparam" : "",
+			"remarks_base64" : "",
+			"group" : "scrape",
+			"enable" : true,
+			"udp_over_tcp" : false
+		}
+	],
+	"index" : 1,
+	"random" : true,
+	"sysProxyMode" : 1,
+	"shareOverLan" : false,
+	"localPort" : 1080,
+	"localAuthPassword" : "gQNlviJizedJHMR425uL",
+	"dnsServer" : "",
+	"reconnectTimes" : 2,
+	"randomAlgorithm" : 3,
+	"randomInGroup" : false,
+	"TTL" : 0,
+	"connectTimeout" : 5,
+	"proxyRuleMode" : 2,
+	"proxyEnable" : false,
+	"pacDirectGoProxy" : false,
+	"proxyType" : 0,
+	"proxyHost" : null,
+	"proxyPort" : 0,
+	"proxyAuthUser" : null,
+	"proxyAuthPass" : null,
+	"proxyUserAgent" : null,
+	"authUser" : null,
+	"authPass" : null,
+	"autoBan" : false,
+	"sameHostForSameTarget" : false,
+	"keepVisitTime" : 180,
+	"isHideTips" : false,
+	"nodeFeedAutoUpdate" : true,
+	"serverSubscribes" : [
+
+	],
+	"token" : {
+
+	},
+	"portMap" : {
+
+	}
+}
